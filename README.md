@@ -21,4 +21,7 @@ I loaded two dataset i.e. Play Store Data and User Review. Play Store Data consi
 In this step I explored the previously loaded datasets and tried to find some insights from the data. I found that Play Store Data had 1 column with float datatype and 12 columns with object datatype and User Reviews had 2 columns with float datatype and 3 columns with object datatype. Pandas has functions like head(), tail(), info(), describe(), etc. that help us to explore the data and understand the data.
 
 ## Data Cleaning
-In this step I looked for null and missing values by using isnull() and sum() functions on the Play store data and user reviews dataset. I found that Play store data had about 1473 null values in Ratings column, 1 null in Type and Content_Rating columns each and 3 null values in Android_Ver column and User reviews had about 26868 null values in Translated_Review column and 26863 null values in Sentiment, Sentiment_Polarity and Sentiment_Subjectivity columns each. I handled
+In this step I looked for null and missing values by using isnull() and sum() functions on the Play store data and user reviews dataset. I found that Play store data had about 1473 null values in Ratings column, 1 null in Type and Content_Rating columns each and 3 null values in Android_Ver column and User reviews had about 26868 null values in Translated_Review column and 26863 null values in Sentiment, Sentiment_Polarity and Sentiment_Subjectivity columns each. I handled these null by either replacing them or removing the rows that consisted these null values.
+
+## Data Preparation
+Here I checked if all the columns have appropriate datatypes and handled unnecessary duplicate values in columns as they would cause redundancy in the data.
