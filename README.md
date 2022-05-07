@@ -25,3 +25,7 @@ In this step I looked for null and missing values by using isnull() and sum() fu
 
 ## Data Preparation
 Here I checked if all the columns have appropriate datatypes and handled unnecessary duplicate values in columns as they would cause redundancy in the data.
+
+## Data Visualization
+Finally I used Matplotlib and Seaborn to plot visuals to understand the data and find insights in the data. The plots that were used are bar plots, pie plots, scatter plots, etc. 
+From these we were able to draw conclusions that would help to know the important features for app engagement.
